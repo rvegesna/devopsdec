@@ -1,3 +1,5 @@
 - hosts: webserver
   remote_user: test
   become: yes
+  tasks:
+     - name: installhttpd
